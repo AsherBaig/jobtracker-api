@@ -16,4 +16,10 @@
     <PackageReference Include="Microsoft.OpenApi" Version="2.7.5" />
   </ItemGroup>
 
+<ItemGroup>
+  <Compile Remove="tests/**/*.cs" />
+  <Content Remove="tests/**" />
+  <None Remove="tests/**" />
+</ItemGroup>
+
 </Project>
